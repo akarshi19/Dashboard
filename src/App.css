@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+}
+
+.content {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative; /* Ensure relative positioning for absolute button */
+  margin-left: 280px; /* Adjust margin to reduce space between sidebar and content */
+}
+
+.content .MuiTypography-h2 {
+  text-align: center;
+}
+
+.sync-button {
+  position: absolute;
+  top: 20px; /* Adjust top position as needed */
+  right: 20px; /* Align to the right side */
+}

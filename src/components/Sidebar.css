@@ -1,0 +1,54 @@
+.sidebar {
+  background-color: #243E8B;
+  color: #fff;
+  padding: 20px;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0; /* Stick to the top and bottom of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar img.logo {
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style:none !important;
+  padding: 0;
+  flex: 1; /* Take remaining space for navigation */
+}
+
+.sidebar nav ul li a{
+  margin: 15px 20px;
+  list-style: none !important;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.sidebar .user-info {
+  display: flex;
+  align-items: center;
+  margin-top: auto; /* Push user-info to the bottom */
+  padding-top: 20px; /* Add some space above user-info */
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Divider above user-info */
+}
+
+.sidebar .user-info img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.sidebar .user-details p {
+  margin: 0;
+}
+.sidebar .user-details p a{
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+}
